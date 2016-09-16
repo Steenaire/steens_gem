@@ -1,5 +1,9 @@
 require "steens_gem/version"
 
 module SteensGem
-  # Your code goes here...
+  class Bean
+    def self.dry
+      `say oooooooooooooooooooooooo oooooooooooooooooooooooo`
+    end
+  end
 end
